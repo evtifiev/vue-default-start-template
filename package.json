@@ -5,11 +5,21 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "new": "hygen new",
+    "docs": "vuepress dev"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
+    "axios": "^0.19.0",
     "core-js": "^2.6.5",
+    "lodash": "^4.17.15",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
     "vue": "^2.6.10",
+    "vue-meta": "^2.2.2",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
@@ -19,12 +29,27 @@
     "@vue/cli-service": "^3.11.0",
     "@vue/eslint-config-prettier": "^5.0.0",
     "babel-eslint": "^10.0.1",
+    "cross-env": "^5.2.1",
     "eslint": "^5.16.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-vue": "^5.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "hygen": "^4.0.9",
     "node-sass": "^4.9.0",
     "prettier": "^1.18.2",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "stylelint": "^10.1.0",
+    "stylelint-config-css-modules": "^1.4.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-css-modules": "^0.9.0",
+    "stylelint-scss": "^3.10.1",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.0.4"
   }
 }
